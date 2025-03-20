@@ -8,7 +8,8 @@ const Footer = () => {
                     {/* Logo Section */}
                     <div className="flex flex-col items-start md:items-center space-y-4">
                         <img  
-                            src="https://aadrivingacademy.net/wp-content/uploads/2021/10/logo-footer-02.png"
+                        style={{width:"70%"}}
+                            src="/YSSR_Education_Circular.png"
                             alt="AADriving Academy Logo"
                             className="w-62 h-auto hover:opacity-80 transition-opacity"
                         />
@@ -20,26 +21,26 @@ const Footer = () => {
                         <div className="flex items-center space-x-2">
                             <i className="fas fa-envelope fa-fw text-white text-lg"></i>
                             <Link href="mailto:info@aadrivingacademy.net" className="hover:text-blue-400">
-                                info@aadrivingacademy.net
+                            DriveAllRound@gmail.com
                             </Link>
                         </div>
                         <div className="flex items-center space-x-2">
                             <i className="fas fa-phone fa-fw text-white text-lg"></i>
                             <Link href="tel:7034784780" className="hover:text-blue-400">
-                                (703) 478-4780
+                            +1-703-953-6184
                             </Link>
                         </div>
                         <div className="flex items-center space-x-2">
                             <i className="fas fa-phone fa-fw text-white text-lg"></i>
                             <Link href="tel:7034679747" className="block hover:text-blue-400">
-                                (703) 467-9747
+                            +1-703-953-6184
                             </Link>
                         </div>
                         <div className="flex items-start space-x-2">
                             <i className="fas fa-map-marker-alt fa-fw text-white text-lg mt-1"></i>
                             <address className="not-italic">
-                                1043 Sterling Rd #101<br />
-                                Herndon, VA 20170
+                            20495 Cherrystone pl <br></br>
+                            Ashburn VA 20147
                             </address>
                         </div>
                     </div>

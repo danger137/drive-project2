@@ -63,7 +63,8 @@ export default function Header() {
         {/* Logo & Contact */}
         <div className="flex items-center w-full lg:w-auto justify-between">
           <img
-            src="https://aadrivingacademy.net/wp-content/uploads/2021/10/logo-edited.png"
+          style={{width:"100px",height:"100px"}}
+            src="/YSSR_Education_Circular.png"
             className="mt-3 h-20 cursor-pointer"
             alt="All Round Driving School Logo"
             onClick={() => router.push("/")}
@@ -87,8 +88,8 @@ export default function Header() {
             <i style={{fontSize:"20px"}} className="fas fa-phone-alt transform rotate-90" aria-hidden="true"></i>
             <p className="text-lg font-semibold">
               <strong>Herndon’s Office:</strong>{" "}
-              <a href="tel:+17034786800">
-                (703) 478-6800
+              <a href="tel:+1-703-953-6184">
+              +1-703-953-6184
               </a>
             </p>
           </div>

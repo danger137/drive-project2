@@ -121,10 +121,10 @@ return <div>
       </h2>
       <div className="space-y-5">
   {[
-    { icon: faEnvelope, text: 'info@aadrivingacademy.net' },
-    { icon: faPhone, text: '(703) 478-6800' },
-    { icon: faBuilding, text: '(703) 467-9747' },
-    { icon: faMapMarkerAlt, text: '1043 Sterling Rd #101, Herndon, VA 20170' },
+    { icon: faEnvelope, text: 'DriveAllRound@gmail.com' },
+    { icon: faPhone, text: '+1-703-953-6184' },
+    { icon: faBuilding, text: '+1-703-953-6184' },
+    { icon: faMapMarkerAlt, text: '20495 Cherrystone plAshburn VA 20147' },
   ].map((item, index) => (
     <div key={index} className="flex flex-col items-center gap-2 text-center mt-5 sm:flex-row sm:gap-3 sm:text-left">
       <div className="flex items-center justify-center h-9 w-9 rounded-full bg-[#9c261f]">

@@ -1,8 +1,10 @@
 "use client";
 
 import Head from "next/head";
+import { useRouter } from "next/navigation";
 
 export default function Home() {
+  let move = useRouter();
   const locations = [
     // Column 1
     [
@@ -99,7 +101,7 @@ export default function Home() {
           content="Driving Academy, DMV Approved, Driving Courses, Driver Improvement, AA Driving Academy, Northern Virginia"
         />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://www.yoursite.com" />
+        <link rel="canonical" href="https://www.yssrEducation.com" />
         <meta property="og:title" content="YSSR EDUCATION - Trusted DMV-Approved Driving Academy" />
         <meta
           property="og:description"
@@ -130,6 +132,9 @@ export default function Home() {
                 Safe, Responsible, and Accountable Driving Courses in 25 Convenient Northern Virginia Locations
               </h2>
               <button
+              onClick={()=>{
+move.push("/Contact")
+              }}
                 className="bg-[#9c261f] text-white text-lg font-bold px-10 py-3 lg:px-16 lg:py-4 mt-6 lg:mt-10 rounded-full hover:bg-red-800 transition"
                 aria-label="Connect with us"
               >
@@ -322,7 +327,7 @@ export default function Home() {
               style={{ backgroundColor: "#002243", minHeight: "420px" }}
             >
               <p style={{ fontSize: "17px", fontWeight: "400" }}>
-                Since opening its doors in 1994, <strong>AA Driving Academy</strong> has had one goal: to "teach you safe, responsible, and accountable driving." To date, our driving school is responsible for training, licensing, and improving the driving of <em>100,000 student drivers</em> that have graduated from our academy.
+                Since opening its doors in 1994, <strong>YSSR EDUCATION Academy</strong> has had one goal: to "teach you safe, responsible, and accountable driving." To date, our driving school is responsible for training, licensing, and improving the driving of <em>100,000 student drivers</em> that have graduated from our academy.
               </p>
               <p style={{ fontSize: "17px", fontWeight: "400" }} className="mt-4">
                 We offer several services to facilitate your driving needs. We specialize in teaching collision-free, defensive driving techniques. This, combined with a solid grounding of classroom theory, gives students the strong foundation they need to develop a thorough understanding of the roads, rules, and regulations. We offer behind-the-wheel training, driver improvement courses, reckless/aggressive courses, driver education, and reexamination courses.
