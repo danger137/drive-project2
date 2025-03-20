@@ -63,7 +63,7 @@ export default function Header() {
         {/* Logo & Contact */}
         <div className="flex items-center w-full lg:w-auto justify-between">
           <img
-          style={{width:"100px",height:"100px"}}
+          style={{width:"80px",height:"80px"}}
             src="/YSSR_Education_Circular.png"
             className="mt-3 h-20 cursor-pointer"
             alt="All Round Driving School Logo"
