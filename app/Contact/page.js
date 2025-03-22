@@ -158,10 +158,10 @@ return <div>
   </div>
   <div className="flex justify-center mt-5 gap-2 flex-wrap sm:justify-start">
     {[
-      { icon: 'facebook-f', color: '#4267b2', url: 'https://facebook.com' },
-      { icon: 'twitter', color: '#55acee', url: 'https://twitter.com' },
-      { icon: 'instagram', color: '#bc2a8d', url: 'https://instagram.com' },
-      { icon: 'youtube', color: '#ff0000', url: 'https://youtube.com' },
+      { icon: 'facebook-f', color: '#4267b2', url: 'https://web.facebook.com/profile.php?id=61574333797915' },
+      { icon: 'twitter', color: '#55acee', url: 'https://x.com/hashmi79292' },
+      { icon: 'instagram', color: '#bc2a8d', url: 'https://www.instagram.com/alihashmi927007/' },
+      { icon: 'youtube', color: '#ff0000', url: 'https://www.youtube.com/@YssrDrivingSchool' },
     ].map((social, index) => (
       <a
         key={index}

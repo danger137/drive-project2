@@ -70,7 +70,7 @@ const Footer = () => {
                 {/* Copyright */}
                 <div className="mt-8 pt-6 border-t border-gray-700 text-center">
                     <p>
-                        © {new Date().getFullYear()} AR Driving Academy, Inc. All rights reserved.
+                        © {new Date().getFullYear()} YSSR Driving Academy, Inc. All rights reserved.
                     </p>
                 </div>
             </div>
