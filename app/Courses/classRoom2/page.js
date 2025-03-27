@@ -183,7 +183,7 @@ return <div>
     <div className="text-center">
       <h1 style={{color:" rgb(14 81 143)"}} className="text-3xl sm:text-4xl  mt-10 font-bold">**Be Sure To Watch the Video!** </h1>
 
-      <video className="w-full sm:w-[550px] mt-16 mb-14 " controls src="/Drivers Manual-Re-Examination Course (Failed 3 times at DMV).mp4"></video>
+      <img src="/DALL·E 2025-03-28 02.38.01 - A promotional banner for a 'Driver Improvement Clinic' course at $60. The background features a gradient of sky blue, blue, and purple. The first sect.jpeg" ></img>
     </div>
   </div>
 </div>

@@ -154,8 +154,8 @@ return <div>
   <div className="bg-[#002243] max-w-full lg:w-[650px] h-auto p-6 flex justify-center items-center">
     <div className="text-center">
       <h1 className="text-3xl sm:text-4xl text-white mt-5 font-bold">**Be Sure To Watch</h1>
-      <h1 className="text-3xl sm:text-4xl text-white font-bold">the Video!**</h1>
-      <video className="w-full sm:w-[525px] mt-6 mb-5 " controls src="/Driver Improvement Program (DIP).mp4"></video>
+      <h1 className="text-3xl sm:text-4xl text-white font-bold mb-10 ">the Post!**</h1>
+    <img src="/DALL·E 2025-03-28 02.38.01 - A promotional banner for a 'Driver Improvement Clinic' course at $60. The background features a gradient of sky blue, blue, and purple. The first sect.jpeg" ></img>
     </div>
   </div>
 </div>

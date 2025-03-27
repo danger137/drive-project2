@@ -298,19 +298,12 @@ export default function ClassRoom() {
       **Be Sure To Watch
     </h1>
     <h1 className="text-3xl sm:text-4xl text-white font-bold">
-      the Video!
+      the POST!
     </h1>
 
     {/* Responsive YouTube Video */}
     <div className="relative w-full max-w-[525px] aspect-video mt-6 mb-8">
-      <iframe
-        className="w-full h-full"
-        src="https://www.youtube.com/embed/mnDVsACGkpY"
-        title="YouTube video player"
-        frameBorder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowFullScreen
-      ></iframe>
+    <img src="/DALL·E 2025-03-28 02.38.01 - A promotional banner for a 'Driver Improvement Clinic' course at $60. The background features a gradient of sky blue, blue, and purple. The first sect.jpeg" ></img>
     </div>
   </div>
 </div>
