@@ -285,20 +285,8 @@ move.push("/Contact")
 
         </section>
 
-    {/* Videos Section */}
-<section aria-label="Video Courses">
-  <div className="flex flex-wrap justify-center gap-10">
-    <div className="w-full sm:w-96">
-      <video className="w-full h-auto" controls src="/Driver%20Improvement%20Program%20(DIP).mp4"></video>
-    </div>
-    <div className="w-full sm:w-96">
-      <video className="w-full h-auto" controls src="/Drivers%20Manual-Re-Examination%20Course%20(Failed%203%20times%20at%20DMV).mp4"></video>
-    </div>
-    <div className="w-full sm:w-96">
-      <video className="w-full h-auto" controls src="/Reckless-Aggressive%20Driver%20Course.mp4"></video>
-    </div>
-  </div>
-</section>
+  
+
 
 {/* Video Background Section */}
 <section aria-label="Special Programs Videos">
@@ -308,10 +296,12 @@ move.push("/Contact")
   >
     <div className="w-full max-w-7xl px-4 flex flex-col lg:flex-row gap-10 justify-center items-center">
       <div className="w-full max-w-2xl">
-        <video controls src="/Teen%20Licensing%20Package%20Program.mp4" className="w-full h-auto"></video>
+       
+        <img src="/DALL·E 2025-03-28 02.38.01 - A promotional banner for a 'Driver Improvement Clinic' course at $60. The background features a gradient of sky blue, blue, and purple. The first sect.jpeg" ></img>
       </div>
       <div className="w-full max-w-2xl">
-        <video controls src="/Adult%20License%20Waiver%20Program.mp4" className="w-full h-auto"></video>
+      
+        <img src="/DALL·E 2025-03-28 02.42.22 - A promotional banner for a 'Driver Education' course for teens and adults at $90. The background features a gradient of sky blue, blue, and purple. Th.jpeg" ></img>
       </div>
     </div>
   </div>
